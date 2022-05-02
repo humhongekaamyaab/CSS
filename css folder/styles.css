@@ -1,0 +1,162 @@
+body{
+
+
+  margin: 0;
+  text-align:center;
+  font-family: 'Merriweather', serif;
+
+}
+
+div{
+
+padding: 50px;
+}
+.topcontainer
+{
+background-color: #EAF6F6;
+}
+h1{
+  font-size: 5rem; /* 1px=6.25%, 16px=100%=1em, em will also inherit(add or subs) the respective parent value so in order to just apply specific we user rem/rootem*/
+  margin: 40px auto 0 auto;
+    padding: 10px;
+font-family: 'Sacramento', cursive;
+color:black;
+line-height: 2;
+}
+p{
+margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.middle{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+.bottom{
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+
+}
+.bottomm{
+  position: absolute;
+
+}
+.topp{
+  position: absolute;
+  right: 440px;
+  top:10px;
+}
+.textt{
+  text-decoration: underline;
+}
+.thik{
+
+  width: 5%;
+  margin: auto;
+  position: absolute;
+  right:47%;
+}
+.centerit{
+  width: 5%;
+  margin: auto;
+  position: absolute;
+  left: 730px;
+  top:310%;
+}
+.beechmei{
+  width: 5%;
+  margin: auto;
+  position: absolute;
+  left: 730px;
+  top:273%;
+}
+h3{
+  font-size: 2.5rem;
+  color :#66BFBF;
+
+}
+h2{
+  font-weight: normal;
+  font-size: 3rem;
+  color:#66BFBF;
+}
+a{
+  color:#11999E;
+}
+.skill-row{
+margin: 100px auto 100px auto;
+text-align: center;
+clear: left;
+}
+
+#editt{
+line-height: 2;
+  /*--clear: left;*/
+
+}
+.comp{
+  width:15%;
+
+  position: relative;
+margin: 0 auto 0 auto;
+}
+.edittt{
+  font-size: 3rem;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+}
+.lasttt{
+  color: #EAF6F6;
+  position: relative;
+  top:29px;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+position: relative;
+top: 20px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.neww{
+  color:#68A7AD;
+}
+a{
+  margin: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: white;
+}
+hr{
+    border-style:  dotted;
+    border-bottom: none;
+  margin: 100px auto;
+
+    border-width: 3%;
+  }
